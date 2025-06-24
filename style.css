@@ -36,22 +36,26 @@ section{
     background-color: aqua;
 }
 */
+/*
 .debug section{
     min-height: 400px;
     background-color: blueviolet;
     padding:2rem;
 }
-
+*/
+/*
 .debug section .container{
     height: 300px;
     background-color: aquamarine;
     
 }
-
+*/
+/*
 .debug section .container .width-70, .width-30{
     background-color: greenyellow;
     border: 1px solid green;
 }
+*/
 /* #endregion Debug Styles */
 
 /* #region Utilities */
@@ -78,6 +82,23 @@ section{
 .width-30{
     width: 30%;
 }
+section{
+    padding-top: 4rem;
+}
+/* #endregion Utilities */
+/* #region Header */
+
+header{
+    background-color: var(--disc-color);
+    div.container{
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        
+    }
+}
+
 .logo-header, .botton-header{
 max-width: 20%;
     
@@ -107,21 +128,6 @@ li{
     font-size: 14px;
     font-weight: bold;
 }
-/* #endregion Utilities */
-/* #region Header */
-
-header{
-    background-color: var(--disc-color);
-    div.container{
-        height: 100%;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2rem 0;
-        
-    }
-}
-
-
 /* #endregion Header */
 /* #region Main */
 
@@ -152,7 +158,7 @@ header{
 h1{
     font-size: 50px;
 }
-p{
+p .text{
     margin: 2rem 1rem;
     
 }
@@ -168,6 +174,45 @@ p{
 #bl{
     color: white;
     background-color: black;
+}
+
+h2,p{
+   margin-top: 2rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.fandoms img {
+   display: block;
+   margin: 0 auto;
+}
+.stars{
+    background-image: url(./img/stars.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 2rem;
+    
+
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ .btn-main-purple{
+    background-color: rgb(158, 103, 209);
+    margin:1rem 30rem;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    border-radius: 19px;
+    font-size: 14px;
+
+}
+
+.fandoms h2, .fandoms p{
+    text-align: center;
 }
 /* #endregion Main */
 /* #region Footer */
